@@ -8,19 +8,19 @@
     }
 
     &__logo {
-        margin-top: 62px;
-        margin-bottom: 57px;
+        margin-top: 3.875rem;
+        margin-bottom: 3.5625rem;
 
         @include breakpoint-up(medium) {
-            margin-top: 50px;
-            margin-left: 39px;
-            margin-bottom: 152px;
+            margin-top: 3.125rem;
+            margin-left: 2.4375rem;
+            margin-bottom: 9.5rem;
         }
 
         @include breakpoint-up(large) {
-            margin-top: 102px;
-            margin-left: 165px;
-            margin-bottom: 103px;
+            margin-top: 6.375rem;
+            margin-left: 10.3125rem;
+            margin-bottom: 6.4375rem;
         }
     }
 
@@ -37,17 +37,17 @@
         @include breakpoint-up(medium) {
             background-image: url(/assets/tablet/image-host.jpg);
             opacity: 0.8;
-            width: 491px;
-            height: 767px;
+            width: 30.6875rem;
+            height: 47.9375rem;
             right: 0;
             position: absolute;
         }
 
         @include breakpoint-up(large) {
             background-image: url(/assets/desktop/image-host.jpg);
-            top: 130px;
-            width: 888px;
-            height: 640px;
+            top: 8.125rem;
+            width: 55.5rem;
+            height: 40rem;
         }
     }
 }

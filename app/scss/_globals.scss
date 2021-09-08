@@ -36,20 +36,22 @@ h3 {
 }
 
 .container {
-    margin-left: 24px;
-    margin-right: 24px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 
     @include breakpoint-down(small) {
-        max-width: 385px;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        max-width: 27.0625rem;
     }
 
     @include breakpoint-up(medium) {
-        margin-left: 39px;
-        margin-right: 39px;
+        margin-left: 2.4375rem;
+        margin-right: 2.4375rem;
     }
 
     @include breakpoint-up(large) {
-        margin-right: 165px;
+        margin-right: 10.3125rem;
         margin-left: 0;
     }
 }

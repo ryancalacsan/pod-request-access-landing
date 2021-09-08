@@ -9,16 +9,17 @@
     }
 
     &__img {
+        overflow: hidden;
         @include breakpoint-up(medium) {
-            margin-left: 30px;
-            width: 232px;
-            height: 104px;
+            margin-left: 1.875rem;
+            width: 14.5rem;
+            height: 6.5rem;
         }
 
         @include breakpoint-up(large) {
             position: absolute;
-            right: 0px;
-            top: -67px;
+            right: 0rem;
+            top: -4.1875rem;
         }
     }
 }

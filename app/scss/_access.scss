@@ -6,62 +6,62 @@
         display: flex;
         flex-direction: column;
         background-color: $black;
-        margin-left: 39px;
+        margin-left: 2.4375rem;
         margin-right: 0;
-        padding-top: 93px;
-        max-width: 635px;
-        margin-bottom: 153px;
+        padding-top: 5.8125rem;
+        max-width: 39.6875rem;
+        margin-bottom: 9.5625rem;
     }
     @include breakpoint-up(large) {
-        max-width: 888px;
+        max-width: 55.5rem;
         margin-bottom: 0;
-        padding-left: 165px;
+        padding-left: 10.3125rem;
     }
 
     &__title {
-        font-size: 26px;
-        line-height: 38px;
+        font-size: 1.625rem;
+        line-height: 2.375rem;
         color: $white;
         text-transform: uppercase;
-        margin-bottom: 16px;
+        margin-bottom: 1rem;
 
         @include breakpoint-up(medium) {
-            font-size: 48px;
-            line-height: 56px;
-            margin-bottom: 31px;
+            font-size: 3rem;
+            line-height: 3.5rem;
+            margin-bottom: 1.9375rem;
         }
 
         @include breakpoint-up(large) {
-            font-size: 52px;
-            line-height: 62px;
-            margin-bottom: 24px;
+            font-size: 3.25rem;
+            line-height: 3.875rem;
+            margin-bottom: 1.5rem;
         }
     }
 
     &__text {
-        font-size: 15px;
-        line-height: 25px;
+        font-size: 0.9375rem;
+        line-height: 1.5625rem;
         color: $lightGray;
-        margin-bottom: 33px;
+        margin-bottom: 2.0625rem;
 
         @include breakpoint-up(medium) {
-            margin-bottom: 40px;
-            max-width: 445px;
-            font-size: 18px;
-            line-height: 28px;
+            margin-bottom: 2.5rem;
+            max-width: 27.8125rem;
+            font-size: 1.125rem;
+            line-height: 1.75rem;
         }
     }
     &__platforms {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 23px;
-        margin-bottom: 48px;
+        gap: 1.4375rem;
+        margin-bottom: 3rem;
 
         @include breakpoint-up(medium) {
             order: 2;
             margin-bottom: 0;
-            max-width: 536px;
+            max-width: 33.5rem;
         }
     }
 
@@ -76,7 +76,7 @@
         }
 
         @include breakpoint-up(medium) {
-            margin-bottom: 42px;
+            margin-bottom: 2.625rem;
         }
     }
 
@@ -92,28 +92,28 @@
 
     &__email {
         background-color: $darkGray;
-        border-radius: 28px;
+        border-radius: 1.75rem;
         border-style: none;
         color: white;
         flex: 1 1 auto;
-        font-size: 14px;
+        font-size: 0.875rem;
         font-weight: $bold;
-        line-height: 28px;
-        padding-top: 9px;
-        padding-bottom: 9px;
-        padding-left: 32px;
-        margin-bottom: 16px;
+        line-height: 1.75rem;
+        padding-top: 0.5625rem;
+        padding-bottom: 0.5625rem;
+        padding-left: 2rem;
+        margin-bottom: 1rem;
 
         &::placeholder {
             opacity: 50%;
         }
 
         @include breakpoint-up(medium) {
-            max-width: 427px;
-            padding-top: 14px;
-            padding-bottom: 14px;
-            padding-right: 199px;
-            margin-bottom: 5px;
+            max-width: 26.6875rem;
+            padding-top: 0.875rem;
+            padding-bottom: 0.875rem;
+            padding-right: 12.4375rem;
+            margin-bottom: 0.3125rem;
         }
     }
 
@@ -121,27 +121,27 @@
         border-style: none;
         flex: 1 1 auto;
         background-color: $turquoise;
-        font-size: 14px;
+        font-size: 0.875rem;
         font-weight: $bold;
-        line-height: 28px;
-        border-radius: 28px;
-        padding-top: 9px;
-        padding-bottom: 9px;
+        line-height: 1.75rem;
+        border-radius: 1.75rem;
+        padding-top: 0.5625rem;
+        padding-bottom: 0.5625rem;
 
         @include breakpoint-up(medium) {
             position: absolute;
-            left: 260px;
-            top: 5px;
-            max-width: 162px;
-            padding: 9px 27px;
+            left: 16.25rem;
+            top: 0.3125rem;
+            max-width: 10.125rem;
+            padding: 0.5625rem 1.6875rem;
         }
     }
 
     &__err {
         color: $error;
-        font-size: 12px;
+        font-size: 0.75rem;
         font-weight: $bold;
-        margin-left: 32px;
+        margin-left: 2rem;
         opacity: 0;
     }
 }

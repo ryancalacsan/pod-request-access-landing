@@ -40,26 +40,28 @@ h3 {
 }
 
 .container {
-  margin-left: 24px;
-  margin-right: 24px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 @media (max-width: 39.9375em) {
   .container {
-    max-width: 385px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    max-width: 27.0625rem;
   }
 }
 
 @media (min-width: 40em) {
   .container {
-    margin-left: 39px;
-    margin-right: 39px;
+    margin-left: 2.4375rem;
+    margin-right: 2.4375rem;
   }
 }
 
 @media (min-width: 64em) {
   .container {
-    margin-right: 165px;
+    margin-right: 10.3125rem;
     margin-left: 0;
   }
 }
@@ -94,23 +96,23 @@ button:hover {
 }
 
 .header__logo {
-  margin-top: 62px;
-  margin-bottom: 57px;
+  margin-top: 3.875rem;
+  margin-bottom: 3.5625rem;
 }
 
 @media (min-width: 40em) {
   .header__logo {
-    margin-top: 50px;
-    margin-left: 39px;
-    margin-bottom: 152px;
+    margin-top: 3.125rem;
+    margin-left: 2.4375rem;
+    margin-bottom: 9.5rem;
   }
 }
 
 @media (min-width: 64em) {
   .header__logo {
-    margin-top: 102px;
-    margin-left: 165px;
-    margin-bottom: 103px;
+    margin-top: 6.375rem;
+    margin-left: 10.3125rem;
+    margin-bottom: 6.4375rem;
   }
 }
 
@@ -129,8 +131,8 @@ button:hover {
   .header__img {
     background-image: url(/assets/tablet/image-host.jpg);
     opacity: 0.8;
-    width: 491px;
-    height: 767px;
+    width: 30.6875rem;
+    height: 47.9375rem;
     right: 0;
     position: absolute;
   }
@@ -139,9 +141,9 @@ button:hover {
 @media (min-width: 64em) {
   .header__img {
     background-image: url(/assets/desktop/image-host.jpg);
-    top: 130px;
-    width: 888px;
-    height: 640px;
+    top: 8.125rem;
+    width: 55.5rem;
+    height: 40rem;
   }
 }
 
@@ -160,59 +162,59 @@ button:hover {
         -ms-flex-direction: column;
             flex-direction: column;
     background-color: #121725;
-    margin-left: 39px;
+    margin-left: 2.4375rem;
     margin-right: 0;
-    padding-top: 93px;
-    max-width: 635px;
-    margin-bottom: 153px;
+    padding-top: 5.8125rem;
+    max-width: 39.6875rem;
+    margin-bottom: 9.5625rem;
   }
 }
 
 @media (min-width: 64em) {
   .access {
-    max-width: 888px;
+    max-width: 55.5rem;
     margin-bottom: 0;
-    padding-left: 165px;
+    padding-left: 10.3125rem;
   }
 }
 
 .access__title {
-  font-size: 26px;
-  line-height: 38px;
+  font-size: 1.625rem;
+  line-height: 2.375rem;
   color: #fff;
   text-transform: uppercase;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 40em) {
   .access__title {
-    font-size: 48px;
-    line-height: 56px;
-    margin-bottom: 31px;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin-bottom: 1.9375rem;
   }
 }
 
 @media (min-width: 64em) {
   .access__title {
-    font-size: 52px;
-    line-height: 62px;
-    margin-bottom: 24px;
+    font-size: 3.25rem;
+    line-height: 3.875rem;
+    margin-bottom: 1.5rem;
   }
 }
 
 .access__text {
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
   color: #c2cbe5;
-  margin-bottom: 33px;
+  margin-bottom: 2.0625rem;
 }
 
 @media (min-width: 40em) {
   .access__text {
-    margin-bottom: 40px;
-    max-width: 445px;
-    font-size: 18px;
-    line-height: 28px;
+    margin-bottom: 2.5rem;
+    max-width: 27.8125rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -226,8 +228,8 @@ button:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 23px;
-  margin-bottom: 48px;
+  gap: 1.4375rem;
+  margin-bottom: 3rem;
 }
 
 @media (min-width: 40em) {
@@ -236,7 +238,7 @@ button:hover {
         -ms-flex-order: 2;
             order: 2;
     margin-bottom: 0;
-    max-width: 536px;
+    max-width: 33.5rem;
   }
 }
 
@@ -257,7 +259,7 @@ button:hover {
 
 @media (min-width: 40em) {
   .access__form {
-    margin-bottom: 42px;
+    margin-bottom: 2.625rem;
   }
 }
 
@@ -284,19 +286,19 @@ button:hover {
 
 .access__email {
   background-color: #2c344b;
-  border-radius: 28px;
+  border-radius: 1.75rem;
   border-style: none;
   color: white;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
-  line-height: 28px;
-  padding-top: 9px;
-  padding-bottom: 9px;
-  padding-left: 32px;
-  margin-bottom: 16px;
+  line-height: 1.75rem;
+  padding-top: 0.5625rem;
+  padding-bottom: 0.5625rem;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
 }
 
 .access__email::-webkit-input-placeholder {
@@ -317,11 +319,11 @@ button:hover {
 
 @media (min-width: 40em) {
   .access__email {
-    max-width: 427px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-right: 199px;
-    margin-bottom: 5px;
+    max-width: 26.6875rem;
+    padding-top: 0.875rem;
+    padding-bottom: 0.875rem;
+    padding-right: 12.4375rem;
+    margin-bottom: 0.3125rem;
   }
 }
 
@@ -331,29 +333,29 @@ button:hover {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   background-color: #54e6af;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
-  line-height: 28px;
-  border-radius: 28px;
-  padding-top: 9px;
-  padding-bottom: 9px;
+  line-height: 1.75rem;
+  border-radius: 1.75rem;
+  padding-top: 0.5625rem;
+  padding-bottom: 0.5625rem;
 }
 
 @media (min-width: 40em) {
   .access__btn {
     position: absolute;
-    left: 260px;
-    top: 5px;
-    max-width: 162px;
-    padding: 9px 27px;
+    left: 16.25rem;
+    top: 0.3125rem;
+    max-width: 10.125rem;
+    padding: 0.5625rem 1.6875rem;
   }
 }
 
 .access__err {
   color: #fb3e3e;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 700;
-  margin-left: 32px;
+  margin-left: 2rem;
   opacity: 0;
 }
 
@@ -378,19 +380,23 @@ h1::first-line {
   }
 }
 
+.footer__img {
+  overflow: hidden;
+}
+
 @media (min-width: 40em) {
   .footer__img {
-    margin-left: 30px;
-    width: 232px;
-    height: 104px;
+    margin-left: 1.875rem;
+    width: 14.5rem;
+    height: 6.5rem;
   }
 }
 
 @media (min-width: 64em) {
   .footer__img {
     position: absolute;
-    right: 0px;
-    top: -67px;
+    right: 0rem;
+    top: -4.1875rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
