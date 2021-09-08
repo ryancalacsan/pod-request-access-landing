@@ -9,7 +9,6 @@
     }
 
     &__img {
-        overflow: hidden;
         @include breakpoint-up(medium) {
             margin-left: 1.875rem;
             width: 14.5rem;
@@ -19,7 +18,7 @@
         @include breakpoint-up(large) {
             position: absolute;
             right: 0rem;
-            top: -4.1875rem;
+            top: -3.875rem;
         }
     }
 }
