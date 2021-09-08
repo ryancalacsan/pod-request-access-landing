@@ -1,30 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/style.css">
-<title>Frontend Mentor | Pod request access landing page</title>
-</head>
-<body>
-<header class="header">
-<img class="header__logo" src="/assets/desktop/logo.svg" alt="pod">
-<div class=header__img></div>
-</header>
-<main class='access container'>
-<h1 class="access__title">Publish your podcasts everywhere.</h1>
-<p class="access__text">Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
-  Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
-<div class="access__platforms"></div>
-<div class="access__form">
-  <form action="">
-    <input type="email" name="email" id="email" placeholder="Email address">
-    <button type="submit">Request Access</button>
-  </form>
-</div>
-</main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Frontend Mentor | Pod request access landing page</title>
+  </head>
+  <body>
+    <header class="header">
+      <img class="header__logo" src="/assets/desktop/logo.svg" alt="pod" />
+      <div class="header__img"></div>
+    </header>
+    <main class="access container">
+      <h1 class="access__title">Publish your podcasts everywhere.</h1>
+      <p class="access__text">
+        Upload your audio to Pod with a single click. We’ll then distribute your
+        podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and
+        more!
+      </p>
+      <div class="access__platforms">
+        <img
+          class="access__platform"
+          src="/assets/desktop/spotify.svg"
+          alt="spotify"
+        /><img
+          class="access__platform"
+          src="/assets/desktop/apple-podcast.svg"
+          alt="apple podcast"
+        /><img
+          class="access__platform"
+          src="/assets/desktop/google-podcasts.svg"
+          alt="google podcasts"
+        /><img
+          class="access__platform"
+          src="/assets/desktop/pocket-casts.svg"
+          alt="pocket casts"
+        />
+      </div>
+      <form class="access__form" id="form" action="" novalidate>
+        <div class="access__formContainer">
+          <input
+            required
+            class="access__email"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email address"
+          /><button class="access__btn btn" type="submit">
+            Request Access
+          </button>
+          <p class="access__err">Oops! Please check your email</p>
+        </div>
+      </form>
+    </main>
+    <footer class="footer">
+      <img
+        class="footer__img"
+        src="/assets/desktop/bg-pattern-dots.svg"
+        alt="dot pattern"
+      />
+    </footer>
+    <script src="/app/js/script.js"></script>
+  </body>
 </html>

@@ -1,17 +1,155 @@
 .access {
+    margin-left: auto;
+    margin-right: auto;
+
+    @include breakpoint-up(medium) {
+        display: flex;
+        flex-direction: column;
+        background-color: $black;
+        margin-left: 39px;
+        margin-right: 0;
+        padding-top: 93px;
+        max-width: 635px;
+        margin-bottom: 153px;
+    }
+    @include breakpoint-up(large) {
+        max-width: 888px;
+        margin-bottom: 0;
+        padding-left: 165px;
+    }
+
     &__title {
         font-size: 26px;
         line-height: 38px;
         color: $white;
         text-transform: uppercase;
+        margin-bottom: 16px;
+
+        @include breakpoint-up(medium) {
+            font-size: 48px;
+            line-height: 56px;
+            margin-bottom: 31px;
+        }
+
+        @include breakpoint-up(large) {
+            font-size: 52px;
+            line-height: 62px;
+            margin-bottom: 24px;
+        }
     }
 
     &__text {
+        font-size: 15px;
+        line-height: 25px;
+        color: $lightGray;
+        margin-bottom: 33px;
+
+        @include breakpoint-up(medium) {
+            margin-bottom: 40px;
+            max-width: 445px;
+            font-size: 18px;
+            line-height: 28px;
+        }
+    }
+    &__platforms {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 23px;
+        margin-bottom: 48px;
+
+        @include breakpoint-up(medium) {
+            order: 2;
+            margin-bottom: 0;
+            max-width: 536px;
+        }
     }
 
-    &__platforms {
+    &__platform {
+        flex: 1 1 auto;
+        min-width: 0;
     }
 
     &__form {
+        @include breakpoint-up(medium) {
+            order: 1;
+        }
+
+        @include breakpoint-up(medium) {
+            margin-bottom: 42px;
+        }
     }
+
+    &__formContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        @include breakpoint-up(medium) {
+            position: relative;
+        }
+    }
+
+    &__email {
+        background-color: $darkGray;
+        border-radius: 28px;
+        border-style: none;
+        color: white;
+        flex: 1 1 auto;
+        font-size: 14px;
+        font-weight: $bold;
+        line-height: 28px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 32px;
+        margin-bottom: 16px;
+
+        &::placeholder {
+            opacity: 50%;
+        }
+
+        @include breakpoint-up(medium) {
+            max-width: 427px;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            padding-right: 199px;
+            margin-bottom: 5px;
+        }
+    }
+
+    &__btn {
+        border-style: none;
+        flex: 1 1 auto;
+        background-color: $turquoise;
+        font-size: 14px;
+        font-weight: $bold;
+        line-height: 28px;
+        border-radius: 28px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+
+        @include breakpoint-up(medium) {
+            position: absolute;
+            left: 260px;
+            top: 5px;
+            max-width: 162px;
+            padding: 9px 27px;
+        }
+    }
+
+    &__err {
+        color: $error;
+        font-size: 12px;
+        font-weight: $bold;
+        margin-left: 32px;
+        opacity: 0;
+    }
+}
+
+h1::first-line {
+    color: $turquoise;
+}
+
+.show {
+    opacity: 1;
 }
